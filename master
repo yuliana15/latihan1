@@ -1,0 +1,121 @@
+Skip to content
+ 
+Search or jump to…
+
+Pull requests
+Issues
+Marketplace
+Explore
+ 
+@yuliana15 
+Learn Git and GitHub without any code!
+Using the Hello World guide, you’ll start a branch, write comments, and open a pull request.
+
+Read the guide
+
+WAHYUPRANATA
+/
+latihan-2
+ Watch 1
+ Star 0  Fork 0
+ Code  Issues 0  Pull requests 0  Actions  Projects 0  Wiki  Security  Insights
+Branch: master 
+latihan-2/index.php  / Jump to 
+Find file Copy path
+@SITI YULIANA perintah 8 (perintah 4 dan 7 nama salah )
+b0fa6ad 2 hours ago
+1 contributor
+77 lines (58 sloc)  985 Bytes
+RawBlameHistory
+    
+You're using code navigation to jump to definitions or references.
+Learn more or give us feedback
+<?php
+
+$x=10;
+$x +=2; #operator assigment +=
+	echo $x "</br>";
+
+$y=10;
+$y -=2; #operator assigment -=
+	echo $y "</br>";
+
+$z=10;
+$z /=2; #operator assigment /=
+	echo $z "</br>";
+
+$q=10;
+$q .=2; #operator assigment .=
+	echo $q "</br>";
+
+$u=10;
+$u %=2; #operator assigment %=
+	echo $u "</br>";
+
+	echo $x."".$y."".$z."".$q."".$u;
+?>
+
+<?php
+//operator perbandingan
+	var_dump(1 < 5) ;
+		echo "</br>";
+
+	var_dump(1 > 5) ;
+		echo "</br>";
+
+	var_dump(1 <= 5) ;
+		echo "</br>";
+
+	var_dump(1 >= 5) ;
+		echo "</br>";
+
+	var_dump(1 == 5) ;
+		echo "</br>";
+
+	var_dump(1 != 5) ;
+		echo "</br>";
+
+//operator indentitas
+	var_dump(1 === "1");
+		echo "</br>";
+	
+	var_dump(1 !== "1");
+		echo "</br>";
+
+//operator logika
+	$x = 10;
+	var_dump($x < 20 && $x % 2 == 0);
+		echo "</br>";
+	
+	var_dump($x < 20 || $x % 2 == 0);
+		echo "</br>";
+
+?>
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		Belaajar PHP
+	</title>
+</head>
+<body>
+	<?php
+	echo "<h1>selamat datang,Nama anda</h1>";
+	?>
+	
+
+</body>
+</html> 
+© 2020 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Help
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
